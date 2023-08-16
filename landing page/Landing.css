@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing-container{
+    height: 100vh;
+    padding: 1rem;
+    background: url("landing.jpg");
+    background-color: rgba(0, 0, 0, 0.61);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.landing-nav-container{
+    background-color: rgba(0,0,0,0.21);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    background-color: rgb(35, 21, 230);
+    width: 6rem;
+    height: 4rem;
+}
+
+.landing-nav{
+    background-color: transparent;
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    gap: 1rem;
+}
+
+.landing-nav-link{
+    all: unset;
+    margin: 0 1rem;
+}
+
+
+.landing-signup{
+    background-color: rgb(35, 21, 230);
+    width: 6rem;
+    height: 4rem;
+}
+

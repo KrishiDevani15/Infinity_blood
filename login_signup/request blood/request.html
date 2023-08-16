@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="request.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Request Blood</h1>
+    </header>
+
+    <form action="backend.php" method="post">
+        <div class="container">
+            <div class="content">
+                <p>Bloodgroup : </p>
+                <select name="bloodtype" id="bloodtype" required>
+                    <option value="">---Select---</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+            </div>
+            <div class="content">
+                <p>Enter pincode : </p>
+                <input type="number" name="pincode" id="pincode" required>
+            </div>
+            <div class="content">
+                <p>Time duration : </p>
+                <select name="time" id="time" required>
+                    <option value="">---Select---</option>
+                    <option value="1">1 hour</option>
+                    <option value="3">3 hour</option>
+                    <option value="5">5 hour</option>
+                    <option value="10">10 hour</option>
+                    <option value="24">1 day</option>
+                </select>
+            </div>
+
+            <button type="submit" id="btn1"> Search </button>
+        </div>
+    </form>
+
+    <!-- <script src="backend.php"></script>
+    <script src="request.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            height: 20rem;
+            width: 20rem;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>QR code</h2>
+
+    <div class="card">
+        <img src="QR.PNG" alt="QR code" dowmload>
+        <div class="container">
+            <!-- <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p>  -->
+            <a href="QR.PNG" download><button>Download</button></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

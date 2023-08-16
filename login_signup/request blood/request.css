@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-image: linear-gradient(90deg, rgb(9, 92, 92), rgb(16, 121, 121), rgb(30, 100, 100)); */
+    background-image: url("./bd-2.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    /* max-width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.content {
+    display: flex;
+    background-color: rgb(31, 29, 29);
+    color: aliceblue;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid whitesmoke;
+}
+
+select,
+option,
+input {
+    /* background-color: rgb(90, 67, 67); */
+    /* background-color: rgb(13, 122, 122); */
+    background-color: rgba(41, 38, 38, 0.644);
+    font-size: 110%;
+    font-weight: bold;
+}
+
+select {
+    color: aliceblue;
+}
+
+option {
+    background-color: rgba(41, 38, 38, 0.644);
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 350%;
+    margin-bottom: 4rem;
+    /* border: 1px double black; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 40vw;
+}
+
+p {
+    font-size: 200%;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+}
+
+button {
+    padding: .5rem 0;
+    font-size: 200%;
+    border-radius: 1rem;
+}
+
+form {
+    margin-right: 40vw;
+}
+
+/* Css 2 */
+
+.container2 {
+    margin: .5rem .2rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    min-width: 80vw;
+    border: .1rem solid black;
+    justify-content: space-between;
+}
+
+.sn,
+.name,
+.mobile {
+    /* width: 5rem;
+    height: 1rem; */
+    padding: .5rem 1rem;
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-size: 140%;
+}
+
+.new {
+    margin-bottom: 2rem;
+}
